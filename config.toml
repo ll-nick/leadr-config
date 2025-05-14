@@ -1,0 +1,33 @@
+leadr_key = "<C-Space>"
+
+[shortcuts.ip]
+command = "ip addr show"
+description = "Show IP addresses"
+
+[shortcuts.gc]
+command = 'git commit -m "'
+execute = false
+
+[shortcuts.ga]
+command = "git add ."
+description = "Git add all"
+
+[shortcuts.gg]
+command = "lazygit"
+description = "LazyGit"
+
+[shortcuts.gs]
+command = "git status"
+description = "Git status"
+
+[shortcuts.gp]
+command = "git push"
+description = "Git push"
+
+[shortcuts.gl]
+command = "git log --oneline"
+description = "Compact Git log"
+
+[shortcuts.h]
+command = "htop"
+description = "System monitor"
