@@ -1,6 +1,11 @@
 leadr_key = "<C-g>"
 print_sequence = true
 
+[shortcuts.ex]
+command = "tar -xzvf "
+description = "Extract tar.gz file"
+execute = false
+
 [shortcuts.gc]
 command = 'git commit -m "'
 execute = false
