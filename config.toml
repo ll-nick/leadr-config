@@ -1,4 +1,4 @@
-leadr_key = "<C-Space>"
+leadr_key = "<C-g>"
 
 [shortcuts.ip]
 command = "ip addr show"
