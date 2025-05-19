@@ -1,4 +1,5 @@
 leadr_key = "<C-g>"
+print_sequence = true
 
 [shortcuts.ip]
 command = "ip addr show"
