@@ -1,10 +1,6 @@
 leadr_key = "<C-g>"
 print_sequence = true
 
-[shortcuts.ip]
-command = "ip addr show"
-description = "Show IP addresses"
-
 [shortcuts.gc]
 command = 'git commit -m "'
 execute = false
@@ -32,3 +28,8 @@ description = "Compact Git log"
 [shortcuts.h]
 command = "htop"
 description = "System monitor"
+
+[shortcuts.ip]
+command = "ip addr show"
+description = "Show IP addresses"
+
