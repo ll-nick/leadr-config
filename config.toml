@@ -1,6 +1,11 @@
 leadr_key = "<C-g>"
 print_sequence = true
 
+[shortcuts.co]
+command = "tar -cvf archive.tar.gz "
+description = "Compress files to tar.gz"
+execute = false
+
 [shortcuts.ex]
 command = "tar -xzvf "
 description = "Extract tar.gz file"
