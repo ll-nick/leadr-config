@@ -4,42 +4,47 @@ print_sequence = true
 [shortcuts.co]
 command = "tar -cvf archive.tar.gz "
 description = "Compress files to tar.gz"
-execute = false
 
 [shortcuts.ex]
 command = "tar -xzvf "
 description = "Extract tar.gz file"
-execute = false
-
-[shortcuts.gc]
-command = 'git commit -m "'
-execute = false
 
 [shortcuts.ga]
 command = "git add ."
 description = "Git add all"
+execute = true
+
+[shortcuts.gc]
+command = 'git commit -m "#CUROSR"'
+description = "Create a new git commit"
 
 [shortcuts.gg]
 command = "lazygit"
 description = "LazyGit"
+execute = true
 
-[shortcuts.gs]
-command = "git status"
-description = "Git status"
+[shortcuts.gl]
+command = "git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+description = "Compact Git log"
+execute = true
 
 [shortcuts.gp]
 command = "git push"
 description = "Git push"
+execute = true
 
-[shortcuts.gl]
-command = "git log --oneline"
-description = "Compact Git log"
+[shortcuts.gs]
+command = "git status"
+description = "Git status"
+execute = true
 
-[shortcuts.h]
-command = "htop"
-description = "System monitor"
+[shortcuts.id]
+command = "date +%Y-%m-%d"
+description = "Insert current date in YYYY-MM-DD format"
+insert_type = "Insert"
+evaluate = true
 
-[shortcuts.ip]
-command = "ip addr show"
-description = "Show IP addresses"
-
+[shortcuts.ss]
+command = "sudo "
+description = "Prepend sudo to command"
+insert_type = "Prepend"
