@@ -5,6 +5,11 @@ print_sequence = true
 command = "tar -cvf archive.tar.gz "
 description = "Compress files to tar.gz"
 
+[shortcuts.cl]
+command = "clear"
+description = "Clear the terminal screen"
+execute = true
+
 [shortcuts.ex]
 command = "tar -xzvf "
 description = "Extract tar.gz file"
