@@ -10,6 +10,10 @@ command = "clear"
 description = "Clear the terminal screen"
 execute = true
 
+[shortcuts.dd]
+command = "rm -rf "
+description = "Delete files or directories"
+
 [shortcuts.ex]
 command = "tar -xzvf "
 description = "Extract tar.gz file"
