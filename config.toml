@@ -53,6 +53,16 @@ description = "Insert current date in YYYY-MM-DD format"
 insert_type = "Insert"
 evaluate = true
 
+[shortcuts.sc]
+command = '#CURSOR$(#COMMAND)'
+description = "Surround command with command substitution"
+insert_type = "Surround"
+
+[shortcuts.sq]
+command = '"#COMMAND"'
+description = "Surround command with quotes"
+insert_type = "Surround"
+
 [shortcuts.ss]
 command = "sudo "
 description = "Prepend sudo to command"
