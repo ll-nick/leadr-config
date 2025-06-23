@@ -1,0 +1,27 @@
+[ga]
+command = "git add ."
+description = "Git add all"
+execute = true
+
+[gc]
+command = 'git commit -m "#CURSOR"'
+description = "Create a new git commit"
+
+[gg]
+command = "lazygit"
+description = "LazyGit"
+execute = true
+
+[gl]
+command = "git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+description = "Compact git log"
+execute = true
+
+[gp]
+command = "git push"
+execute = true
+
+[gs]
+command = "git status"
+execute = true
+

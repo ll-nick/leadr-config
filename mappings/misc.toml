@@ -1,0 +1,34 @@
+[cl]
+command = "clear"
+description = "Clear the terminal screen"
+execute = true
+
+[dd]
+command = "rm -rf "
+description = "Delete files or directories"
+
+[id]
+command = "date +%Y-%m-%d"
+description = "Insert current date in YYYY-MM-DD format"
+insert_type = "Insert"
+evaluate = true
+
+[sc]
+command = '#CURSOR$(#COMMAND)'
+description = "Surround with command substitution"
+insert_type = "Surround"
+
+[sq]
+command = '"#COMMAND"'
+description = "Surround with quotes"
+insert_type = "Surround"
+
+[ss]
+command = "sudo "
+description = "Prepend sudo"
+insert_type = "Prepend"
+
+[y]
+command = " | xclip -selection clipboard"
+description = "Append copy to clipboard"
+insert_type = "Append"

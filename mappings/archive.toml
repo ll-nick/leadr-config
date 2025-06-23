@@ -1,0 +1,7 @@
+[ac]
+command = "tar -cvf archive.tar.gz "
+description = "Compress files to tar.gz"
+
+[ae]
+command = "tar -xzvf "
+description = "Extract tar.gz file"
