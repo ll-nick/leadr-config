@@ -1,0 +1,9 @@
+[dsa]
+command = "docker compose -f ~/arbitrator/arbitration_graphs/.devcontainer/docker-compose.arbitration-graphs.yaml up -d"
+description = "Start arbitration graphs devcontainer"
+execute = true
+
+[dea]
+command = "docker compose -f ~/arbitrator/arbitration_graphs/.devcontainer/docker-compose.arbitration-graphs.yaml exec -it aribtration_graphs_devel bash -l"
+description = "Enter arbitration graphs devcontainer"
+execute = true
