@@ -1,0 +1,19 @@
+["c."]
+command = "cd .."
+description = "cd to parent directory"
+execute = true
+
+[ca]
+command = "cd ~/arbitrator/arbitration_graphs"
+description = "cd to arbitration graphs"
+execute = true
+
+[cc]
+command = "cd ~"
+description = "cd to home"
+execute = true
+
+[cm]
+command = "cd ~/misc"
+description = "cd to misc"
+execute = true
