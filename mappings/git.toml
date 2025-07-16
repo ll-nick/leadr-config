@@ -7,6 +7,10 @@ execute = true
 command = 'git commit -m "#CURSOR"'
 description = "Create a new git commit"
 
+[gd]
+command = "git diff -M"
+execute = true
+
 [gg]
 command = "lazygit"
 description = "LazyGit"
